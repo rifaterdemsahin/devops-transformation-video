@@ -4,6 +4,8 @@ A 19-second vertical short: a girl leaps up the DevOps staircase (Linux → Netw
 
 **Live: https://rifaterdemsahin.github.io/devops-transformation-video/**
 
+**LinkedIn post (copy-ready): https://rifaterdemsahin.github.io/devops-transformation-video/linkedin.html**
+
 ## How it was made
 1. **Source clip** – a 9.4 s, 720×1280 AI-generated video of a girl jumping up the staircase (`public/girl.mp4`).
 2. **Remotion project** – 1080×1920 @ 30 fps, three `Sequence`s in `src/Short.tsx`:

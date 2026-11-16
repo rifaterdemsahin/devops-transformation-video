@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LinkedIn Post</title>
+<style>
+:root{--bg:#07080f;--card:#12142a;--ink:#f5f6ff;--dim:#8a8fa8;--ai:#8b6bff;--hot:#ff4d8d}
+@media(prefers-color-scheme:light){:root{--bg:#f6f6fb;--card:#fff;--ink:#14152a;--dim:#5a5f78}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"SF Pro Display",Inter,sans-serif;line-height:1.5}
+main{max-width:620px;margin:0 auto;padding:24px 16px}
+h1{font-size:1.5rem;margin:0 0 .2em}
+.card{background:var(--card);border:1px solid #8b6bff33;border-radius:16px;padding:20px;white-space:pre-wrap;font-size:1rem}
+button,a.b{display:inline-block;margin:14px 10px 0 0;padding:12px 20px;border:0;border-radius:999px;background:linear-gradient(90deg,var(--ai),var(--hot));color:#fff;font-weight:700;font-size:1rem;text-decoration:none;cursor:pointer}
+p.n{color:var(--dim);font-size:.9rem}
+video{width:100%;max-width:320px;border-radius:16px;margin-top:16px}
+</style></head><body><main>
+<h1>LinkedIn post</h1>
+<p class="n">Copy the text, then attach the MP4 (LinkedIn plays 9:16 video natively).</p>
+<div class="card" id="t">Every expert you admire once stared at step 1.
+
+Linux. Networking. Scripting. CI/CD. Containers. IaC. Cloud. Monitoring.
+
+For years, DevOps was a steep staircase and you climbed it one painful step at a time.
+
+Then AI agents joined the team.
+
+Not to replace the climb. To change it:
+
+→ Stuck on every script → say what you want to build
+→ Months to learn a tool → a working draft in minutes
+→ Debugging alone at 2am → an agent debugs beside you
+→ Fear of the blank terminal → confidence to ship today
+
+Your ladder just became a launchpad.
+
+I made this 19-second short with Remotion to show the shift. Watch it, then tell me: which step did AI help you skip?
+
+Bigger dreams. Start climbing.
+
+https://rifaterdemsahin.github.io/devops-transformation-video/
+
+#DevOps #AI #ClaudeCode #AIAgents #PlatformEngineering #CareerGrowth</div>
+<button id="c">Copy post text</button><a class="b" href="video/devops-transformation.mp4" download>Download video</a>
+<br><video src="video/devops-transformation.mp4" poster="video/poster.jpg" controls playsinline preload="metadata"></video>
+</main>
+<script>
+document.getElementById('c').onclick=async e=>{try{await navigator.clipboard.writeText(document.getElementById('t').innerText);e.target.textContent='Copied!'}catch(_){e.target.textContent='Select the text and copy'}}
+</script></body></html>
